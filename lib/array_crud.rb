@@ -7,8 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  banks = ["chase", "wells fargo", "bank of america", "TD"]
-  banks << "capital one"
+ cities = {
+   :new_york => "New York",
+   :new_jersey => "Newark"
+ }
+ cities << :connecticut => "Stamford"
 end
 
 def add_element_to_start_of_array(array, element)
